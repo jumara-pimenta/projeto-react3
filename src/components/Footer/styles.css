@@ -84,7 +84,7 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 425px) {
     .rodape {
         background-color: #4f2158;
         display: inline-block;

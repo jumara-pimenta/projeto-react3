@@ -23,7 +23,7 @@
     }
 }   
 
-@media (max-width: 360px){
+@media (max-width: 425px){
     .menu {
         font-size: 15px;
         display: flex;
