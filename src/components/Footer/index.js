@@ -23,8 +23,8 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link className="link" to="/minhaPagina">
-                Minha página
+              <Link className="link" to="/lista">
+                Meus repositórios
               </Link>
             </li>
           </ul>
@@ -37,11 +37,16 @@ const Footer = () => {
 
         </div>
         <div className="imgFooter">
+          <Link to="https://github.com/jumara-pimenta">
           <img src={ImgGit} alt="Imagem da logo do GitHub" />
-          {/* <Link className="link" to="https://github.com/jumara-pimenta"></Link> */}
-          <img src={ImgInsta} alt="Imagem da logo do Instagram" />
+          </Link>
+          <Link to="https://www.instagram.com/jumarapimenta/">
+            <img src={ImgInsta} alt="Imagem da logo do Instagram" /> 
+          </Link>
+          <Link to="https://www.linkedin.com/in/jumara-souza-pimenta/">
           <img src={ImgIN} alt="Imagem da logo do LinkedIN" />
-        </div>
+          </Link>
+         </div>
       </div>
 
       <div className="rodape__cc">
