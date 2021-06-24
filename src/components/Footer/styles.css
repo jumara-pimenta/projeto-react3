@@ -83,3 +83,39 @@
         padding: 10px;
     }
 }
+
+@media (max-width: 360px) {
+    .rodape {
+        background-color: #4f2158;
+        display: inline-block;
+    }
+
+    .menuFooter {
+        width: 90%;
+        font-size: 15px;
+        margin: 1rem;
+        text-align: center;
+      }
+ 
+
+    .menuFooter li {
+        margin-left: 1rem;
+        list-style: none;
+    }
+
+    .autora {
+        width: 90%;
+        font-size: 15px;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+        color: wheat;
+        text-align: center;
+     }
+
+    .imgFooter {
+        margin: 0.5rem;
+        margin-right: 1rem;
+    }
+
+}

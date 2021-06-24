@@ -22,3 +22,18 @@
         justify-content: center;
     }
 }   
+
+@media (max-width: 360px){
+    .menu {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 2rem;
+}
+

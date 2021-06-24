@@ -37,13 +37,13 @@ const Footer = () => {
 
         </div>
         <div className="imgFooter">
-          <Link to="https://github.com/jumara-pimenta">
-          <img src={ImgGit} alt="Imagem da logo do GitHub" />
+          <Link to="https://github.com/jumara-pimenta" target="_blank"> 
+          <img src={ImgGit} alt="Imagem da logo do GitHub" /> 
           </Link>
-          <Link to="https://www.instagram.com/jumarapimenta/">
+          <Link to="https://www.instagram.com/jumarapimenta/" target="_blank">
             <img src={ImgInsta} alt="Imagem da logo do Instagram" /> 
           </Link>
-          <Link to="https://www.linkedin.com/in/jumara-souza-pimenta/">
+          <Link to="https://www.linkedin.com/in/jumara-souza-pimenta/" target="_blank">
           <img src={ImgIN} alt="Imagem da logo do LinkedIN" />
           </Link>
          </div>

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
 
+import './styles.css'
+
 const Lista = () => {
   const [repositorios, setRepositorios] = useState([]);
   const [listaRepositorios, setListaRepositorios] = useState([]);
@@ -28,18 +30,17 @@ const Lista = () => {
       <Menu />
 
       <input
+      type="text"
         placeholder="Busque um repositório"
         onChange={(e) => {
           setBusca(e.target.value);
         }}
       />
+      <ul className="repos" >
       {listaRepositorios.map((repo) => (
-        <div key={repo.id}>
-          <p>{repo.name}</p>
-          {/* <p>{repo.full_name}</p> */}
-
-        </div>
+          <li className="repositorio" key={repo.id}>{repo.name}</li>
       ))}
+      </ul>
       <Footer />
     </>
   );
